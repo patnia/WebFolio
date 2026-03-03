@@ -211,7 +211,7 @@ const bigProjects = {
         // "Full-stack ERP system with a Python/SQL backend and FastAPI/React frontend featuring barcode-enabled inventory tracking, FIFO logic, an automated purchase-order scheduler with email API integration, and a supplier/customer rating engine with REST APIs for dashboard integration.",
       descBullets: [
         "Built an ERP system using Python/SQL backend and React frontend with barcode-enabled inventory tracking and FIFO logic",
-        "Developed automated purchase-order scheduler in Python with email API integration, improving procurement efficiency,
+        "Developed automated purchase-order scheduler in Python with email API integration, improving procurement efficiency",
         "Created supplier/customer rating engine with SQL aggregations and REST APIs for dashboard integration and quality control"
       ]
       /*footerLink: [
@@ -224,7 +224,7 @@ const bigProjects = {
     {
       image: require("./assets/images/developerActivity.svg"),
       projectName: "Spam Call Detection System",
-      date: "May 2022 - Aug 2022"
+      date: "May 2022 - Aug 2022",
       // projectDesc:
         // "XGBoost classifier for telecom spam call filtering achieving 97.5% accuracy, 90.3% precision, and 88.6% recall. Built for Mobileum with cross-validation, feature importance analysis, and fraud pattern detection to refine sensitivity and prevention capabilities.",
       descBullets: [
