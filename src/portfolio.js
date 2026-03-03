@@ -23,7 +23,7 @@ const greeting = {
   username: "Aadi Patni",
   title: "Hi, I'm Aadi",
   subTitle: emoji(
-    "A passionate Software Engineer 🚀 focused on backend systems, distributed architecture, and developer tooling — building the invisible infrastructure that makes great products possible."
+    "A Software Engineer 🚀 with experience building backend systems, REST APIs, and full-stack applications using Python, SQL, and cloud platforms — skilled in system design and production workflows from architecture and implementation to testing, deployment, and monitoring."
   ),
   resumeLink: "", // Add your resume link here
   displayGreeting: true
@@ -34,7 +34,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/patnia",
   linkedin: "https://www.linkedin.com/in/patniaadi",
-  gmail: "apatni@ucsb.edu",
+  gmail: "aadipatni2803@gmail.com",
   display: true
 };
 
@@ -42,11 +42,18 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "BACKEND ENGINEER & SYSTEMS BUILDER WHO LOVES DISTRIBUTED SYSTEMS AND DEVELOPER TOOLING",
+  subTitle:
+    "BACKEND ENGINEER WHO BUILDS SCALABLE SYSTEMS, DATA PIPELINES, AND PRODUCTION APIs",
   skills: [
-    emoji("⚡ Design and build high-throughput backend systems and microservices handling millions of events/day"),
-    emoji("⚡ Architect distributed systems with a focus on latency, reliability, and observability"),
-    emoji("⚡ Build full-stack applications and developer tools from CLI to production-ready web dashboards")
+    emoji(
+      "⚡ Build and deploy production-grade backend systems, REST APIs, and ETL pipelines handling millions of records"
+    ),
+    emoji(
+      "⚡ Design database schemas and optimize SQL queries for real-time analytics and reporting"
+    ),
+    emoji(
+      "⚡ Develop machine learning models and vector search backends for intelligent, data-driven products"
+    )
   ],
 
   softwareSkills: [
@@ -55,24 +62,12 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "TypeScript",
-      fontAwesomeClassname: "fab fa-js-square"
-    },
-    {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
-      skillName: "React",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "Node.js",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Django",
+      fontAwesomeClassname: "fas fa-server"
     },
     {
       skillName: "Docker",
@@ -83,20 +78,32 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-aws"
     },
     {
+      skillName: "Google Cloud",
+      fontAwesomeClassname: "fab fa-google"
+    },
+    {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git-alt"
     },
     {
+      skillName: "Machine Learning",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "REST APIs",
+      fontAwesomeClassname: "fas fa-plug"
+    },
+    {
+      skillName: "Snowflake",
+      fontAwesomeClassname: "fas fa-snowflake"
+    },
+    {
+      skillName: "Tableau",
+      fontAwesomeClassname: "fas fa-chart-bar"
+    },
+    {
       skillName: "Linux",
       fontAwesomeClassname: "fab fa-linux"
-    },
-    {
-      skillName: "SQL Database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
     }
   ],
   display: true
@@ -108,14 +115,14 @@ const educationInfo = {
   display: true,
   schools: [
     {
-      schoolName: "UC Santa Barbara",
-      logo: require("./assets/images/ucsbLogo.svg"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2023 – June 2027 (Expected)",
-      desc: "GPA: 3.8/4.0 · Dean's List. Focus on systems, distributed computing, and HCI.",
+      schoolName: "Purdue University",
+      logo: require("./assets/images/programmer.svg"), // Replace with Purdue logo
+      subHeader: "Bachelor of Science in Statistics",
+      duration: "August 2022 – December 2025",
+      desc: "Minor: Business Economics, Supply Chain Engineering Technology",
       descBullets: [
-        "Relevant coursework: Operating Systems, Computer Networks, Algorithms, Database Systems, Distributed Systems",
-        "Undergraduate Research Assistant at the UCSB HCI Lab (2023)"
+        "Coursework: Linear Algebra, R Programming, Linear Regression, Statistical Quality Control, Data Structures and Algorithms, Object-Oriented Programming, SAS",
+        "Certifications: Machine Learning with Python (IBM), Statistics with Python Specialization (University of Michigan), Data Science Professional Career Certificate (Google)"
       ]
     }
   ]
@@ -127,16 +134,16 @@ const techStack = {
   viewSkillBars: true,
   experience: [
     {
-      Stack: "Backend & Systems",
+      Stack: "Backend Development & Python",
       progressPercentage: "90%"
     },
     {
-      Stack: "Frontend / Full-Stack",
+      Stack: "Data Engineering & ML",
       progressPercentage: "85%"
     },
     {
       Stack: "Cloud & DevOps",
-      progressPercentage: "78%"
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false
@@ -149,40 +156,39 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineering Intern",
-      company: "Palo Alto Networks",
-      companylogo: require("./assets/images/paloaltoLogo.svg"),
-      date: "Jun 2024 – Sep 2024",
-      desc: "Built Python microservices and infrastructure improvements for security event processing at scale.",
+      company: "Sparkl.me",
+      companylogo: require("./assets/images/programmer.svg"), // Replace with Sparkl logo
+      date: "May 2025 – Aug 2025",
+      desc: "Built production ETL and vector search infrastructure for multimodal asset processing at scale.",
       descBullets: [
-        "Built Python microservices processing 1M+ security events/day using FastAPI and Kafka",
-        "Reduced P99 API latency by 42% via query optimization, connection pooling, and Redis caching",
-        "Shipped CI/CD pipeline with GitHub Actions + Docker cutting deploy cycle from 45 min → 8 min",
-        "Implemented distributed rate-limiting middleware adopted across 4 internal teams"
+        "Built production ETL pipeline using Python, Pinecone, and OpenAI API to process 100K+ assets with multimodal search",
+        "Designed SerpAPI integration with rate-limiting, error handling, and licensing validation, achieving 91% data quality",
+        "Implemented vector similarity search backend and metadata enrichment workflows, reducing manual processing by 70%",
+        "Collaborated in Agile sprints to refine system architecture, PostgreSQL schemas, and monitoring for production reliability"
       ]
     },
     {
-      role: "Full-Stack Developer Intern",
-      company: "Stealth Startup",
-      companylogo: require("./assets/images/stealthLogo.svg"),
-      date: "Jan 2024 – May 2024",
-      desc: "Built the core product — a React dashboard and Node.js REST API — from the ground up.",
+      role: "Backend Software Engineering Intern",
+      company: "Qure.ai",
+      companylogo: require("./assets/images/programmer.svg"), // Replace with Qure.ai logo
+      date: "May 2024 – Aug 2024",
+      desc: "Built automated preprocessing and logging infrastructure for large-scale medical image pipelines.",
       descBullets: [
-        "Built React dashboard achieving 97 Lighthouse performance score with dynamic data virtualization",
-        "Designed Node.js REST API with JWT auth, RBAC, and rate limiting — 99.98% uptime",
-        "Integrated Stripe and Plaid APIs powering $80k+ in monthly transaction volume",
-        "Raised test coverage from 34% → 91% using Jest and Cypress"
+        "Built automated preprocessing pipeline in Python for 500K+ medical images with quality checks and error handling",
+        "Designed backend workflows using Python, NumPy, Pandas for image ingestion, metadata extraction, and feature generation",
+        "Implemented logging infrastructure and unit tests with pytest to ensure pipeline reliability and reproducibility"
       ]
     },
     {
-      role: "Undergraduate Research Assistant",
-      company: "UCSB HCI Lab",
-      companylogo: require("./assets/images/ucsbLogo.svg"),
-      date: "Sep 2023 – Dec 2023",
-      desc: "Built data pipelines and visualizations supporting HCI research published at CHI 2024.",
+      role: "Data Science Intern",
+      company: "Bijnis",
+      companylogo: require("./assets/images/programmer.svg"), // Replace with Bijnis logo
+      date: "May 2023 – Aug 2023",
+      desc: "Processed 1M+ transaction records and built live Tableau dashboards backed by optimized SQL APIs.",
       descBullets: [
-        "Built data collection pipeline aggregating 500k+ user interaction events for HCI research",
-        "Developed D3.js visualizations for research paper published in CHI 2024",
-        "Maintained the lab's open-source toolkit with 800+ GitHub stars"
+        "Built end-to-end workflows in SQL and Python to process 1M+ transaction records, designing normalized schemas and APIs",
+        "Optimized SQL queries and table indexes, reducing reporting latency by 40% and enabling real-time dashboard updates",
+        "Connected Tableau dashboards to live SQL backend with REST endpoints, enabling self-serve analytics for business teams"
       ]
     }
   ]
@@ -204,9 +210,9 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/programmer.svg"),
-      projectName: "DistribuTrace",
+      projectName: "Enterprise Resource Planning (ERP) Software",
       projectDesc:
-        "Distributed tracing system for microservices with a custom context-propagation protocol delivering sub-1ms overhead at 10k+ req/s, plus a real-time flame-graph dashboard.",
+        "Full-stack ERP system with a Python/SQL backend and Django frontend featuring barcode-enabled inventory tracking, FIFO logic, an automated purchase-order scheduler with email API integration, and a supplier/customer rating engine with REST APIs for dashboard integration.",
       footerLink: [
         {
           name: "View on GitHub",
@@ -216,33 +222,9 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/developerActivity.svg"),
-      projectName: "NeuralMarket",
+      projectName: "Spam Call Detection System",
       projectDesc:
-        "Algorithmic trading engine using LSTM + reinforcement learning for real-time signal generation. Full backtesting framework across 5+ years of market data — +23% backtest ROI.",
-      footerLink: [
-        {
-          name: "View on GitHub",
-          url: "https://github.com/patnia"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/skill.svg"),
-      projectName: "CollabFlow",
-      projectDesc:
-        "Real-time collaborative code editor with live cursors, operational transforms for conflict resolution, syntax highlighting for 30+ languages, and session recording. 500+ active users.",
-      footerLink: [
-        {
-          name: "View on GitHub",
-          url: "https://github.com/patnia"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/manOnTable.svg"),
-      projectName: "APIForge",
-      projectDesc:
-        "CLI + web tool that auto-generates type-safe REST API clients, documentation, and mock servers from OpenAPI 3.x specs. Supports TypeScript, Python, and Go output. 2k+ GitHub stars.",
+        "XGBoost classifier for telecom spam call filtering achieving 97.5% accuracy, 90.3% precision, and 88.6% recall. Built for Mobileum with cross-validation, feature importance analysis, and fraud pattern detection to refine sensitivity and prevention capabilities.",
       footerLink: [
         {
           name: "View on GitHub",
@@ -257,35 +239,42 @@ const bigProjects = {
 // Achievement Section
 
 const achievementSection = {
-  title: emoji("Achievements 🏆"),
-  subtitle: "Hackathons, awards, and things I'm proud of",
+  title: emoji("Achievements & Certifications 🏆"),
+  subtitle: "Certifications and leadership milestones",
   achievementsCards: [
     {
-      title: "CHI 2024 Research Contribution",
-      subtitle:
-        "Co-authored research published at ACM CHI 2024 through work at the UCSB HCI Lab on large-scale user interaction data pipelines and D3.js visualizations.",
+      title: "Machine Learning with Python",
+      subtitle: "IBM — Covered supervised/unsupervised learning, model evaluation, and applied ML with Python.",
       image: require("./assets/images/skill.svg"),
-      imageAlt: "CHI 2024",
+      imageAlt: "IBM Certification",
       footerLink: []
     },
     {
-      title: "2k+ GitHub Stars",
-      subtitle:
-        "APIForge, an open-source CLI tool for generating type-safe API clients from OpenAPI specs, accumulated 2k+ GitHub stars from the developer community.",
+      title: "Statistics with Python Specialization",
+      subtitle: "University of Michigan — Inferential statistics, probability, and statistical modeling with Python.",
+      image: require("./assets/images/skill.svg"),
+      imageAlt: "University of Michigan Certification",
+      footerLink: []
+    },
+    {
+      title: "Data Science Professional Career Certificate",
+      subtitle: "Google — End-to-end data science workflows: data wrangling, visualization, modeling, and communication.",
+      image: require("./assets/images/skill.svg"),
+      imageAlt: "Google Certification",
+      footerLink: []
+    },
+    {
+      title: "CASO Treasurer — $35,000+ Raised",
+      subtitle: "Cricket and Social Outreach (CASO), Purdue — Managed finances and budgeting, securing $35,000+ for cultural, sporting, and outreach events. Boosted community engagement by 30%.",
       image: require("./assets/images/developerActivity.svg"),
-      imageAlt: "GitHub Stars",
-      footerLink: [
-        {
-          name: "View on GitHub",
-          url: "https://github.com/patnia"
-        }
-      ]
+      imageAlt: "CASO",
+      footerLink: []
     }
   ],
   display: true
 };
 
-// Blogs Section — disabled (no Medium blog)
+// Blogs Section — disabled
 
 const blogSection = {
   title: "Blogs",
@@ -324,9 +313,9 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Open to SWE internships (Summer 2025), research collaborations, and interesting systems problems. Response time: < 24h.",
-  number: "",
-  email_address: "apatni@ucsb.edu"
+    "Open to new opportunities — response time under 24h.",
+  number: "(765) 476-6833",
+  email_address: "aadipatni2803@gmail.com"
 };
 
 // Twitter Section — disabled
