@@ -101,10 +101,6 @@ const skillsSection = {
       skillName: "Tableau",
       fontAwesomeClassname: "fas fa-chart-bar"
     },
-    {
-      skillName: "Linux",
-      fontAwesomeClassname: "fab fa-linux"
-    }
   ],
   display: true
 };
@@ -159,7 +155,7 @@ const workExperiences = {
       company: "Sparkl.me",
       companylogo: require("./assets/images/programmer.svg"), // Replace with Sparkl logo
       date: "May 2025 – Aug 2025",
-      desc: "Built production ETL and vector search infrastructure for multimodal asset processing at scale.",
+      // desc: "Built production ETL and vector search infrastructure for multimodal asset processing at scale.",
       descBullets: [
         "Built production ETL pipeline using Python, Pinecone, and OpenAI API to process 100K+ assets with multimodal search",
         "Designed SerpAPI integration with rate-limiting, error handling, and licensing validation, achieving 91% data quality",
@@ -172,7 +168,7 @@ const workExperiences = {
       company: "Qure.ai",
       companylogo: require("./assets/images/programmer.svg"), // Replace with Qure.ai logo
       date: "May 2024 – Aug 2024",
-      desc: "Built automated preprocessing and logging infrastructure for large-scale medical image pipelines.",
+      // desc: "Built automated preprocessing and logging infrastructure for large-scale medical image pipelines.",
       descBullets: [
         "Built automated preprocessing pipeline in Python for 500K+ medical images with quality checks and error handling",
         "Designed backend workflows using Python, NumPy, Pandas for image ingestion, metadata extraction, and feature generation",
@@ -184,7 +180,7 @@ const workExperiences = {
       company: "Bijnis",
       companylogo: require("./assets/images/programmer.svg"), // Replace with Bijnis logo
       date: "May 2023 – Aug 2023",
-      desc: "Processed 1M+ transaction records and built live Tableau dashboards backed by optimized SQL APIs.",
+      // desc: "Processed 1M+ transaction records and built live Tableau dashboards backed by optimized SQL APIs.",
       descBullets: [
         "Built end-to-end workflows in SQL and Python to process 1M+ transaction records, designing normalized schemas and APIs",
         "Optimized SQL queries and table indexes, reducing reporting latency by 40% and enabling real-time dashboard updates",
@@ -199,38 +195,49 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true",
-  display: true
+  display: false
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SYSTEMS AND TOOLS I'VE BUILT",
+  subtitle: "Personal Projects",
   projects: [
     {
       image: require("./assets/images/programmer.svg"),
       projectName: "Enterprise Resource Planning (ERP) Software",
-      projectDesc:
-        "Full-stack ERP system with a Python/SQL backend and Django frontend featuring barcode-enabled inventory tracking, FIFO logic, an automated purchase-order scheduler with email API integration, and a supplier/customer rating engine with REST APIs for dashboard integration.",
-      footerLink: [
+      // projectDesc:
+        // "Full-stack ERP system with a Python/SQL backend and FastAPI/React frontend featuring barcode-enabled inventory tracking, FIFO logic, an automated purchase-order scheduler with email API integration, and a supplier/customer rating engine with REST APIs for dashboard integration.",
+      descBullets: [
+        "Built an ERP system using Python/SQL backend and React frontend with barcode-enabled inventory tracking and FIFO logic",
+        "Developed automated purchase-order scheduler in Python with email API integration, improving procurement efficiency,
+        "Created supplier/customer rating engine with SQL aggregations and REST APIs for dashboard integration and quality control"
+      ]
+      /*footerLink: [
         {
           name: "View on GitHub",
           url: "https://github.com/patnia"
         }
-      ]
+      ]*/
     },
     {
       image: require("./assets/images/developerActivity.svg"),
       projectName: "Spam Call Detection System",
-      projectDesc:
-        "XGBoost classifier for telecom spam call filtering achieving 97.5% accuracy, 90.3% precision, and 88.6% recall. Built for Mobileum with cross-validation, feature importance analysis, and fraud pattern detection to refine sensitivity and prevention capabilities.",
-      footerLink: [
+      date: "May 2022 - Aug 2022"
+      // projectDesc:
+        // "XGBoost classifier for telecom spam call filtering achieving 97.5% accuracy, 90.3% precision, and 88.6% recall. Built for Mobileum with cross-validation, feature importance analysis, and fraud pattern detection to refine sensitivity and prevention capabilities.",
+      descBullets: [
+        "Developed an XGBoost classifier for spam call filtering, achieving 97.5% accuracy on telecom datasets",
+        "Enhanced model robustness using cross-validation, reaching 90.3% precision and 88.6% recall on test data",
+        "Analyzed feature importance and fraud patterns, refining detection sensitivity and fraud prevention capabilities"
+      ]
+      /*footerLink: [
         {
           name: "View on GitHub",
           url: "https://github.com/patnia"
         }
-      ]
+      ]*/
     }
   ],
   display: true
