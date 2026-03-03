@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" rx="20" fill="#003660"/>
+  <text x="100" y="90" font-family="Georgia,serif" font-size="38" font-weight="bold" fill="#FEBC11" text-anchor="middle">UC</text>
+  <text x="100" y="135" font-family="Georgia,serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">SANTA</text>
+  <text x="100" y="162" font-family="Georgia,serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">BARBARA</text>
+</svg>
