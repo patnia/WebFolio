@@ -263,11 +263,11 @@ const bigProjects = {
   display: true
 };
 
-// Achievement Section
+// Certifications Section
 
-const achievementSection = {
-  title: emoji("Achievements & Certifications 🏆"),
-  subtitle: "Certifications and leadership milestones",
+const certificationSection = {
+  title: emoji("Certifications 📜"),
+  subtitle: "Industry-recognized certifications in data science and machine learning",
   achievementsCards: [
     {
       title: "Machine Learning with Python",
@@ -288,6 +288,23 @@ const achievementSection = {
       subtitle: "Google — End-to-end data science workflows: data wrangling, visualization, modeling, and communication.",
       image: require("./assets/images/skill.svg"),
       imageAlt: "Google Certification",
+      footerLink: []
+    }
+  ],
+  display: true
+};
+
+// Leadership Section
+
+const leadershipSection = {
+  title: emoji("Leadership 🌟"),
+  subtitle: "Roles where I built communities, led teams, and drove impact",
+  achievementsCards: [
+    {
+      title: "Boiler B — Co-Founder & Vice President",
+      subtitle: "Aug 2022 – May 2025 | Established a dedicated support platform for international students, securing $20,000+ in funding. Mentored incoming first-years and oversaw 4 committees, raising participation by 35%.",
+      image: require("./assets/images/developerActivity.svg"),
+      imageAlt: "Boiler B",
       footerLink: []
     },
     {
@@ -365,7 +382,8 @@ export {
   workExperiences,
   openSource,
   bigProjects,
-  achievementSection,
+  certificationSection,
+  leadershipSection,
   blogSection,
   talkSection,
   podcastSection,
