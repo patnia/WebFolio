@@ -59,7 +59,9 @@ export default function Achievement() {
           <SectionBlock section={certificationSection} isDark={isDark} />
         )}
         {leadershipSection.display && (
-          <SectionBlock section={leadershipSection} isDark={isDark} />
+          <div style={{marginTop: "80px"}}>
+            <SectionBlock section={leadershipSection} isDark={isDark} />
+          </div>
         )}
       </div>
     </Fade>
