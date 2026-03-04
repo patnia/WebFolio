@@ -274,21 +274,36 @@ const certificationSection = {
       subtitle: "IBM — Covered supervised/unsupervised learning, model evaluation, and applied ML with Python.",
       image: require("./assets/images/skill.svg"),
       imageAlt: "IBM Certification",
-      footerLink: []
+      footerLink: [
+        {
+          name: "View Credentials",
+          url: "https://coursera.org/verify/W8Q5FM9NCK27"
+        }
+      ]
     },
     {
       title: "Statistics with Python Specialization",
       subtitle: "University of Michigan — Inferential statistics, probability, and statistical modeling with Python.",
       image: require("./assets/images/skill.svg"),
       imageAlt: "University of Michigan Certification",
-      footerLink: []
+      footerLink: [
+        {
+          name: "View Credentials",
+          url: "https://www.coursera.org/account/accomplishments/specialization/T3ZC2WQYWWQE"
+        }
+      ]
     },
     {
       title: "Data Science Professional Career Certificate",
       subtitle: "Google — End-to-end data science workflows: data wrangling, visualization, modeling, and communication.",
       image: require("./assets/images/skill.svg"),
       imageAlt: "Google Certification",
-      footerLink: []
+      footerLink: [
+        {
+          name: "View Credentials",
+          url: "https://www.coursera.org/account/accomplishments/professional-cert/L3HX4W8CG4HX"
+        }
+      ]
     }
   ],
   display: true
