@@ -66,8 +66,28 @@ const skillsSection = {
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "Django",
-      fontAwesomeClassname: "fas fa-server"
+      skillName: "FastAPI",
+      fontAwesomeClassname: "fas fa-bolt"
+    },
+    {
+      skillName: "PostgreSQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Pandas",
+      fontAwesomeClassname: "fas fa-table"
+    },
+    {
+      skillName: "Jupyter",
+      fontAwesomeClassname: "fas fa-book-open"
+    },
+    {
+      skillName: "React",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node-js"
     },
     {
       skillName: "Docker",
