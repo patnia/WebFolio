@@ -61,12 +61,18 @@
   padding-top: 0.8rem;
   line-height: normal;
 }
+.dark-mode.education-text-subHeader {
+  color: $textColorDark;
+}
 
 .education-text-duration {
   color: $titleColor;
   font-size: 19px;
   margin: 0px;
   padding-top: 0.5rem;
+}
+.dark-mode.education-text-duration {
+  color: $textColorDark;
 }
 
 .education-text-desc {

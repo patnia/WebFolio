@@ -15,6 +15,9 @@
   margin-bottom: 20px;
 }
 
+.dark-mode .software-skill-inline > i {
+  color: rgba(255, 255, 255, 0.75);
+}
 .software-skill-inline > i {
   color: $subTitle;
 }
